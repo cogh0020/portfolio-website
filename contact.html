@@ -43,19 +43,27 @@
                         <p class="col-12">If you want to talk about a project, please leave the details in the form below!</p>
                         <div class=" mb-2 mt-2 col-12 col-md-6">
                             <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                            <input type="text" class="form-control" id="name" aria-describedby="nameHelp" required>
                         </div>
                         <div class="mb-2 mt-2 col-12 col-md-6">
                             <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
                         </div>
                         <div class="mb-2 mt-2 col-12 col-md-6">
                             <label for="tel" class="form-label">Phone Number</label>
-                            <input type="tel" class="form-control" id="tel" aria-describedby="telephoneHelp">
+                            <input type="tel" class="form-control" id="tel" aria-describedby="telephoneHelp" required>
                         </div>
                         <div class="mb-2 mt-2 col-12 col-md-6">
                             <label for="organization" class="form-label">Organization</label>
                             <input type="text" class="form-control" id="organization" aria-describedby="organizationHelp">
+                        </div>
+                        <div class="fmb-2 mt-2 col-12 col-md-6">
+                            <label for="start-date" class="form-label">Start Date</label>
+                            <input type="date" class="form-control" placeholder="yyyy-mm-dd" id="start-date" name="start-date"  />
+                        </div>
+                        <div class="mb-2 mt-2 col-12 col-md-6">
+                            <label for="end-date" class="form-label">End Date</label>
+                            <input type="date" class="form-control" placeholder="yyyy-mm-dd" id="end-date" name="end-date"  />
                         </div>
                         <div class="mb-2 mt-2 col-12">
                             <label for="message" class="form-label">Message</label>
