@@ -11131,6 +11131,7 @@ html, body {
 
 .big-name {
   font-size: 150%;
+  font-weight: bold;
 }
 
 .card-pop {
