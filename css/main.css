@@ -11118,6 +11118,7 @@ html, body {
 
 .banner {
   color: white;
+  height: 75vh;
   text-align: center;
   background-image: linear-gradient(#000a, #000a), url(/images/webDevBG.jpeg);
   background-position: center;
@@ -11165,6 +11166,7 @@ html, body {
   -webkit-text-fill-color: transparent;
   color: transparent;
   background-clip: text;
+  font-weight: bold;
 }
 
 .selfie {
