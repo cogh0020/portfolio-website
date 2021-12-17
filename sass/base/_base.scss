@@ -49,6 +49,13 @@ html, body {
     }
 }
 
+.screen-reader-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 .gradient-text {
     text-transform: uppercase;
     background-image: linear-gradient(60deg, #E21143, #FFB03A);
